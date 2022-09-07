@@ -80,7 +80,6 @@ public class Main{
         for(int i = 0; i < 12; i++){
             sumWithPercent = (sumWithPercent + salary) * (1 + percent);
             System.out.println("Месяц " + i + ", сумма накоплений равна " + sumWithPercent + " рублей");
-
         }
     }
 
